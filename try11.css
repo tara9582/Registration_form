@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #403d39;
+    border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(tomato, green);
+}
+
+.col1 {
+    background-image: linear-gradient(yellow, blue);
+    border: #272727 5px solid;
+    color: #05014d;
+    height: 700px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 48%;
+    display: inline-block;
+    box-shadow: 5px 10px 8px 10px blue;
+}
+
+.col2 {
+    margin-left: 20px;
+    background-image: linear-gradient(yellow, blue);
+    border: 5px #272727 solid;
+    height: 700px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 48%;
+    display: inline-block;
+    box-shadow: 5px 10px 8px 10px yellow;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+table {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+.data {
+    width: 55%;
+}
+
+.data {
+    height: 50px;
+}
+
+.inp {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.submit1 {
+    width: 70%;
+    height: 50px;
+    margin-left: 15%;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #03045e, #0077b6, #00b4d8, #90e0ef, #caf0f8);
+    border: 2px #00b4d8 solid;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.reset {
+    background-color: crimson;
+    border: 2px red solid;
+    font-size: 20px;
+    cursor: pointer;
+    width: 70%;
+    height: 50px;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.data {
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.gen,
+.skill {
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+span {
+    margin-right: 15px;
+}
+
+.col2 {
+    text-align: left;
+    overflow-y: scroll;
+}
+
+.submitted1 {
+    background-image: linear-gradient(red, yellow);
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 8px;
+}
+
+img {
+    padding: 10px;
+    margin-left: 70px;
+    width: 100px;
+    height: 100px;
+}
+
+.pass1 {
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+}
